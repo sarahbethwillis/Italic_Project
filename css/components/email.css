@@ -1,0 +1,145 @@
+.email {
+  display: flex;
+
+
+
+}
+
+
+
+.email-left{
+
+  font-family: Apercu-Medium !important;
+  font-size: 14px !important;
+  color: #676767;
+  letter-spacing: 0 !important;
+  border: 1px solid #CACACA;
+  width: 345px;
+  height: 60px;
+  border-radius: 5px 0px 0px 5px;
+  margin-left: 10px;
+  display: flex;
+  padding-left: 10px;
+
+}
+
+.email-left input {
+  border: none;
+  width: 84%;
+  color: #676767;
+  font-size: 14px;
+  font-family: Apercu-Medium;
+}
+
+.email-left-text {
+  margin-left: 10px;
+}
+
+.email-right {
+    font-family: Apercu-Bold;
+    font-size: 14px !important;
+    color: white;
+    background-color: black;
+    letter-spacing: 0 !important;
+    width: 225px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -53px;
+  }
+
+  .email-right input {
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: Apercu-Bold;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+
+  }
+
+.email-right h3 {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.second-email {
+  display: flex;
+  margin-left: 40px;
+
+
+
+}
+
+.second-email-left{
+
+  font-family: Apercu;
+  font-size: 15px;
+  color: #B4B4B4;
+  letter-spacing: 0 !important;
+  background-color: #323232;
+  border: 1px solid #CACACA;
+  width: 310px;
+  height: 60px;
+  border-radius: 5px 0px 0px 5px;
+/*  padding: 10px;
+*/  margin-left: 10px;
+  display: flex;
+
+}
+
+.second-email-left input {
+  background-color: #323232;
+  border:none;
+  color: #B4B4B4;
+  font-family: Apercu-Regular;
+  font-size: 15px;
+  width: 100%;
+  margin-left: 10px;
+
+}
+
+.second-email-left h3 {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+
+.second-email-right {
+    font-family: Apercu-Bold;
+    font-size: 14px;
+    color: white;
+    background-color: #FF5935;
+    letter-spacing: 0 !important;
+
+    width: 195px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+
+  border-radius: 0px 5px 5px 0px;
+  /*  padding: 10px;
+  */  margin-left: -5px;
+  }
+
+  .second-email-right input {
+    background-color: #FF5935;
+    color: white;
+    border:none;
+    font-family: Apercu-Bold;
+    font-size: 14px;
+  }
+
+.second-email-right h3 {
+  display: flex;
+  align-items: center;
+}
+
+
+

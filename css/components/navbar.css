@@ -1,0 +1,268 @@
+#navbar {
+  overflow: hidden;
+  z-index: 1;
+
+    position:fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+#navbar img {
+/*  float: left;*/
+  display: block;
+  width:65px;
+  height: 23px;
+
+}
+
+.logo {
+/*  padding-left: 60px;*/
+margin-left: 40px;
+  padding-top: 30px;
+  display: flex;
+  position: relative;
+  width: 10%;
+  background-color: transparent;
+}
+
+
+.navbar-email {
+  padding-left: 60px;
+  margin-top: 14px;
+}
+
+
+.orange {
+  right: 0;
+  float: right;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  width: 470px;
+}
+
+.orange-shape {
+  z-index: -1;
+  display: flex;
+  top: 0px;
+  position: absolute;
+  right: 0px;
+}
+
+
+
+
+
+
+.orange-image {
+  position: absolute;
+  right: 66px;
+
+  float: right;
+  top: 122px;
+
+  animation: fade-in 1s ease-in-out;
+
+
+}
+
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 1s;
+}
+
+.hidden {
+  opacity:0;
+}
+
+
+.orange-image img {
+  width: 504px;
+/*  transition:all .5s ease-in-out;
+  animation:wubble 8s ease-in-out infinite alternate-reverse;*/
+
+}
+
+.toothbrush {
+  display: none;
+
+}
+
+.lipstick {
+  display: none;
+}
+/*@keyframes wubble{
+  from{
+    transform: rotate(1deg);
+  }
+  to{
+    transform:rotate(5deg);
+  }
+}*/
+
+
+.orange-links {
+  float: right;
+  display: flex;
+  margin-top: 30px;
+  margin-right: 60px;
+  font-family:Apercu-Medium;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+
+
+}
+
+.orange-links a {
+  text-decoration: none;
+  color: white;
+  justify-content: space-between;
+  width: 120px;
+    transition: 0.5s ease;
+
+}
+
+.orange-links a:hover {
+  transition: 0.5s ease;
+  letter-spacing: 1.3px;
+/*  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);*/
+}
+
+.orange-price {
+  position: absolute;
+  right: -10px;
+  float: right;
+   top: 338px;
+
+}
+
+
+.orange-price h1 {
+  font-family: Apercu-Bold;
+  font-size: 107px;
+  opacity: 0.1;
+  color: black;
+  transition: .5s ease;
+
+
+}
+
+.orange-price h1:hover {
+  opacity: .8;
+  transition: .5s ease;
+}
+
+
+
+.orange-text {
+  position: absolute;
+  color: white;
+  top: 590px;
+
+  right: 90px;
+
+}
+
+.orange-text h3 {
+  font-family: Apercu-Bold;
+  font-size: 13px;
+
+}
+
+.orange-text h3 img {
+  padding-right: 10px;
+}
+
+
+
+
+
+
+.orange-text h4 {
+  font-family: Apercu-Regular !important;
+  font-size: 13px;
+}
+
+
+.orange-text h5 {
+  font-family: Apercu;
+  font-size: 12px;
+  border: 1px solid white;
+  text-align: center;
+  vertical-align: middle;
+  width: 80px;
+  padding: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.orange-text h5:hover {
+    font-family: Apercu;
+    font-size: 12px;
+    background-color: white;
+
+    transition: all 0.5s ease;
+    border: 1px solid #FF5935;
+    color: #FF5935;
+    text-align: center;
+    vertical-align: middle;
+    width: 80px;
+    padding: 5px;
+  }
+
+
+
+
+
+
+
+
+#navbar .orange-links a {
+  padding-right: 30px;
+
+}
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: Apercu-Medium;
+  font-size: 13px;
+  background-color: transparent;
+/*  position: relative;
+  left: 400px;
+  margin-top: 30px;
+  margin-left: 50px;
+  display: flex;*/
+/*  float: right;
+  display: inline-block;*/
+}
+
+
+#navbar a.active {
+  background-color: transparent;
+}
+
+.sticky {
+
+}
+
+.content {
+  padding: 10px;
+  width: 100%;
+}
+.sticky + .content {
+/*  padding-top: 20px;*/
+
+}
+
+
+.scrollnav {
+  display: none;
+}

@@ -1,0 +1,258 @@
+@import url("components/navbar.css");
+@import url("components/email.css");
+@import url("components/footer.css");
+@import url("images");
+
+
+html {
+  min-height: 100%;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0;
+
+
+}
+
+.container {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+/*  margin-left: 60px;*/
+
+}
+
+
+
+section {
+/*  height: 100vh;*/
+
+}
+
+
+
+.hero {
+/*  margin-left: 48px;*/
+display: flex;
+height: 715px;
+
+}
+
+
+
+.hero ul {
+  list-style-type: none;
+  position: absolute;
+  margin-top: 84px;
+}
+
+
+
+.hero-text {
+  font-size: 107px;
+  letter-spacing: -1.3px;
+  position: relative;
+  font-family: Apercu-Bold;
+
+
+}
+
+
+.hero-text h5 {
+  font-size: 12px;
+  letter-spacing: 0px !important;
+  padding: 10px;
+  margin-top: 40px;
+
+}
+
+
+.line {
+  height: 13px;
+
+  background-color: #FF5935;
+  margin-top: -37px;
+
+}
+
+.line-two {
+  height: 8px;
+  background-color: #FF5935;
+  margin-top: -24px;
+}
+
+
+
+#diffline {
+  height: 5px;
+  width: 50px;
+  background-color: #FF5935;
+  margin-top: 57px;
+  margin-left: 10px;
+
+}
+
+
+#diffline h5{
+  font-size: 12px;
+}
+
+
+.product-image {
+  display: flex;
+  position: absolute;
+}
+
+.product-image img {
+
+}
+
+
+
+.section-two {
+  height: 650px;
+  background-color: #2C2C2C;
+
+}
+
+.section-two-text {
+  color: white;
+  width: 50%;
+  margin-left: 40px;
+  padding-top: 30px;
+}
+
+.section-two h2 {
+  font-family: Apercu-Bold;
+  font-size: 70px;
+  letter-spacing: -0.63px;
+
+}
+
+.section-two h3 {
+  font-family: Apercu-Bold;
+  font-style: italic;
+  font-size: 30px;
+
+}
+
+.section-three {
+  height: 650px;
+  background-color: #F3F3F3;
+  padding:1px;
+  margin-bottom: -30px;
+}
+
+.section-three-header {
+  font-family: Apercu-Bold;
+  font-style: italic;
+  font-size: 21px;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 138px;
+  height: 24%;
+}
+
+
+.section-three-row {
+  display: flex;
+  width: 54%;
+  margin-left: 40px;
+  justify-content: space-between;
+
+}
+
+.section-three-column {
+  float: left;
+  width: 330px;
+}
+
+.section-three-column h2 {
+  font-family: Apercu-Bold;
+  font-size: 31px;
+}
+
+.section-three-column h4 {
+  font-family: Apercu;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.section-four {
+  height: 1205px;
+  margin-bottom: -60px;
+}
+
+.section-four-title {
+  width: 30%;
+  margin-left: 40px;
+  margin-top: 60px;
+
+}
+
+.section-four-title h1 {
+  font-family: Apercu-Bold;
+  font-size: 50px;
+  line-height: 50px;
+
+}
+
+.section-four-title h4{
+  font-family: Apercu-Bold;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+.section-four-text {
+  width: 45%;
+  margin-left: 40px;
+  margin-top: 30px;
+
+}
+
+.section-four-text h2 {
+  font-family: Apercu-Bold;
+  font-size: 24px;
+
+}
+
+.section-four-text h5 {
+  color: #3A3A3A;
+  font-family: Apercu;
+  font-weight: lighter;
+  font-size: 16px;
+  border-bottom: 1px #D8D8D8 solid;
+  padding-bottom: 40px;
+  line-height: 27px;
+
+}
+
+
+.section-five {
+  height: 464px;
+  background-color: #2C2C2C;
+}
+
+
+.section-five-title {
+  width: 70%;
+  margin-left: 40px;
+}
+
+.section-five-title h1 {
+  font-family: Apercu-Bold;
+  font-size: 64px;
+  color: white;
+  padding-top: 200px;
+
+}
+
+
+
+
+
+
