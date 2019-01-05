@@ -8,18 +8,14 @@
   <title>Italic</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="scroll.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <script src="skrollr.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" data-skrollr-stylesheet />
+
 
 
 </head>
 <body>
 
-
-
-  <div class="footer__zero" data-animate data-animate-offset="1">
-      <span>Z</span><span>e</span><span>r</span><span>o</span>
-      <img src="/app/themes/clean/assets/images/visuals/btt-hand.png" alt="">
-  </div>
 
 <section>
 <!-- original navbar -->
@@ -62,7 +58,7 @@
 
 
 <!-- shoe -->
-<div class="shoe">
+<div id="shoe">
 <div class="orange">
   <div class="orange-links">
     <a class="active" href="javascript:void(0)">CAREERS</a>
@@ -91,7 +87,7 @@
 </div>
 
 <!-- // toothbrush  -->
-<div class="toothbrush">
+<div id="toothbrush">
 <div class="orange">
   <div class="orange-links">
     <a class="active" href="javascript:void(0)">CAREERS</a>
@@ -120,7 +116,7 @@
 
 
 <!-- lipstick -->
-<div class="lipstick">
+<div id="lipstick">
 <div class="orange">
   <div class="orange-links">
     <a class="active" href="javascript:void(0)">CAREERS</a>
@@ -314,14 +310,9 @@
 
 
 
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 1200,
-    easing: 'ease-in-out-back'
-  });
-
+<script type="text/javascript" src="skrollr.min.js"></script>
+<script type="text/javascript">
+var s = skrollr.init();
 </script>
 
 

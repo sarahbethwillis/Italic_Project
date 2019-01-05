@@ -76,6 +76,19 @@
 
 }
 
+.sticky {
+
+}
+
+.content {
+  padding: 10px;
+  width: 100%;
+}
+.sticky + .content {
+/*  padding-top: 20px;*/
+
+}
+
 .second-email-left{
 
   font-family: Apercu;

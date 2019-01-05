@@ -89,22 +89,18 @@ margin-left: 40px;
 
 }
 
-.toothbrush {
-  display: none;
+#shoe {
 
 }
 
-.lipstick {
-  display: none;
+#toothbrush {
+display: none;
 }
-/*@keyframes wubble{
-  from{
-    transform: rotate(1deg);
-  }
-  to{
-    transform:rotate(5deg);
-  }
-}*/
+
+#lipstick {
+  display: none;
+
+}
 
 
 .orange-links {
